@@ -1,0 +1,8 @@
+h: First manifesto!;
+d: Cod.iQ, HTML+JS+CSS+PHP+KOTLIN+SWIFT kodlarını birleştiren bir sistem entegrasyon aracıdır.;
+p: "p:" bir paragraf cümlesini temsil eder ";" ile sonlanır. "d:" bir açıklama cümlesini temsil eder ";" ile sonlanır. "h:" bir başlığı temsil eder ";" ile sonlanır.;
+p: Dosya uzantısı .codiq ile biter.;
+p: Eklemeli kod sistemi entegrasyon için "p-php:" ön etiketi ile devam eder.;
+p-php: <? echo "TEST KELİME"; ?>;
+p-html: <p>TEST KELİME</p>;
+p: "p-php>html:" operatörü kullanılarak /<? echo "TEST KELİME"; ?>/ verisi girilirse çıktı olarak /<p>TEST KELİME</p>/ alınacaktır.;
